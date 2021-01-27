@@ -1,0 +1,18 @@
+.column{
+  float: left;
+  height: 100vh;
+}
+.fat{
+  width: 45%;
+}
+.skinny{
+  width: 10%;
+}
+.skinny::after{
+  content: "";
+  position: absolute;
+  margin-top: 50px;
+  height: 80%;
+  width: 10px;
+  background-color: rgb(0, 0, 255);
+}
