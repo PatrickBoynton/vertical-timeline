@@ -21,7 +21,7 @@ body{
   content: "";
   position: absolute;
   margin-top: 50px;
-  height: 80%;
+  height: 160%;
   width: 4px;
   background-color: #286188;
 }
@@ -37,8 +37,33 @@ body{
 }
 .box2{
   margin: 350px 40px;
+  height: 275px;
 }
-
+.box1 > h1{
+  padding: 20px;
+}
+.box2 > time {
+  float: left;
+}
+.box2 > h1{
+  padding-top: 100px;
+  margin: 0;
+  background-color: red;
+}
+.box2 > p {
+  padding: 10px;
+}
+.box3{
+  margin: 350px 80px;
+  height: 175px;
+}
+.box3 > h1{
+  padding: 20px;
+}
+.box3 > p {
+  padding: 0 20px;
+  border-left: 4px solid #286188;
+}
 time{
   background-color: #EC515C;
   color: white;
@@ -57,10 +82,15 @@ button{
   margin: 20px;
   text-transform: uppercase;
 }
+button:hover{
+  background-color: #46a4e3;
+  color: black;
+}
 p{
   margin: 0 20px;
 }
 h1{
-  padding: 20px;
+  padding: 0;
   margin: 0;
+  display: block;
 }
