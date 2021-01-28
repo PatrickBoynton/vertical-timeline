@@ -47,8 +47,12 @@ body{
 }
 .box2 > h1{
   padding-top: 100px;
+  padding-left: 30px;
   margin: 0;
-  background-color: red;
+  background: url("../images/statue.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
 }
 .box2 > p {
   padding: 10px;
