@@ -5,22 +5,24 @@
 body{
   background-color: darkgrey;
 }
+.container {
+  width: 100%;
+}
 .column{
   float: left;
-  height: 100vh;
 }
-.fat{
+.left, right {
   width: 45%;
 }
-.skinny{
+.middle{
   width: 10%;
 }
-.skinny::after{
+.middle::after{
   content: "";
   position: absolute;
   margin-top: 50px;
   height: 80%;
-  width: 10px;
+  width: 4px;
   background-color: #286188;
 }
 .box{
@@ -29,9 +31,16 @@ body{
   background-color: #fff;
   box-shadow: 5px 5px 10px #00000044;
   border-radius: 3px;
-  margin: 100px 30px 0 30px;
+}
+.box1{
+  margin: 50px 80px;
 }
 
+.box::after{
+  content: "";
+  position: absolute;
+  display: table;
+}
 time{
   background-color: #EC515C;
   color: white;
