@@ -34,10 +34,12 @@ body{
 }
 .box1{
   margin: 50px 80px;
+  animation: move-in-left ease-in 1.7s;
 }
 .box2{
   margin: 350px 40px;
   height: 275px;
+  animation: move-in-right ease-in 1.7s;
 }
 .box1 > h1{
   padding: 20px;
@@ -60,6 +62,7 @@ body{
 .box3{
   margin: 350px 80px;
   height: 175px;
+  animation: move-in-left ease-in 1.7s;
 }
 .box3 > h1{
   padding: 20px;
@@ -97,4 +100,29 @@ h1{
   padding: 0;
   margin: 0;
   display: block;
+}
+
+
+@keyframes move-in-left {
+  from{
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes move-in-right {
+  from {
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+
+  to{
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
