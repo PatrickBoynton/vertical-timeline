@@ -113,9 +113,9 @@ body{
   padding-top: 100px;
   padding-left: 30px;
   margin: 0;
-  background: url("../images/statue.jpeg");
+  background: url("../images/BeethovenStatue.jpeg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 520px 520px;
   color: #fff;
 }
 .box2 > p {
