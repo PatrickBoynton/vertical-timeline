@@ -201,8 +201,9 @@ h1{
   margin: 0;
   display: block;
 }
-
-
+i{
+  padding-top:  15%;
+}
 @keyframes move-in-left {
   from{
     transform: translateX(-1000px);
@@ -227,31 +228,15 @@ h1{
   }
 }
 
-@media screen and (max-width: 876px) {
-  .box::after{
-    content: "";
-    height: 0;
-    width: 0;
-    border-right: solid 10px #000;
-    border-bottom: solid 10px transparent;
-    border-top: solid 10px transparent;
-    display: table;
-    clear: both;
-    position: absolute;
-    top: 50px;
-    right: 400px;
+@media screen and (max-width: 966px) {
+  .box{
+    float: right;
   }
-  .box1 {
-    animation: move-in-right ease-in 1.7s;
-  }
-  .box3 {
+  .box1{
     animation: move-in-right ease-in 1.7s;
   }
   .middle::after{
-    height: 200%;
+      height: 300%;
+      left: 15%;
   }
-}
-i{
-  padding: 5px;
-  z-index: 2;
 }
